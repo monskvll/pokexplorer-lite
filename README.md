@@ -5,3 +5,5 @@ Every correct search returns a Pokémon's:
 - front and back sprite (animated on hover);
 - ID number;
 - types (background colour changes according to its main type).
+_____
+Live: https://monskvll.github.io/pokexplorer-lite/
