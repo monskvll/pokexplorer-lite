@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;  
+    text-transform: uppercase;    
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color:rgba(0, 0, 0, .75);
+    transition: 250ms;
+}
+
+h1 {
+    margin: 1em 0 0 0;
+    padding: 0;
+    font-size: 4em;
+}
+
+a {
+    color: white;
+    text-decoration: none;    
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    margin: 2em 0 3em;
+}
+
+img {
+    margin: 0 0 1em 0;
+}
+
+#container {  
+    background-color: rgba(255, 255, 255, 0.1);;  
+    border-radius: 1em;
+    padding: 2em;
+    margin: 0;
+    border: 1em solid rgba(255, 255, 255, 0.1);
+    transition: 500ms;
+    color: white;    
+}
+
+#container:hover {    
+    border: 1em solid rgba(255, 255, 255, 0.25)
+}
+
+#monskvll:link {
+    color: rgb(212, 212, 212);
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
+    transition: 250ms;    
+}
+
+#monskvll:visited {
+    color: rgb(78, 78, 78);
+}
+
+#monskvll:hover {
+    color: white;
+}
+
+#monskvll:active {
+    color: black;
+}
